@@ -1,0 +1,3 @@
+gen/espec animal: completa e disjunta, ele é completa e disjunta pois só existe a possibilidade do animal ser de raça ou vira-lata.
+
+gen/espec veterinário: incompleta e sobreposta, pois existem mais tipos de especialização veterinária e o veterinário pode ter mais de uma especialização.
