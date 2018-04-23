@@ -1,0 +1,3 @@
+a classe amphibia é a mãe de todos os animais conhecidos como anfibios, usamos 3 exemplos de anfibios para serem os filhos, Urodela, Gymnophiona e Anuros, e pra cada sub classes dessas tem um amfibio diferente, como por exemplo Salamandras, Cobra Cegas e Rã e sapos, respectivamente.
+
+o polimorfismo é tratado na função formacaoGirino(), pois para cada subclasse de amphibia, o girino é formado de um modo, antes de suas mutações, por exemplo o girino do anuro se parece com esparmatozoide, do urodela ele ja eclode com patinhas (coia q no anuro só se forma depois das mutações), e do gymnophiona ele parece um macarrãozinho.
