@@ -1,1 +1,1 @@
-Sim, na parte de gem/spec do veterinário, o mesmo veterinário pode atender casos de dermatologia e tambem fazer consultas de patologia ou algumas cirurgias (como castração por exemplo), então nesse caso seria uma gem/spec dinâmica.
+Sim, na parte de gen/spec do veterinário, o mesmo veterinário pode atender casos de dermatologia e tambem fazer consultas de patologia ou algumas cirurgias (como castração por exemplo), então nesse caso seria uma gen/spec dinâmica.
