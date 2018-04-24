@@ -1,1 +1,2 @@
-Sim, na parte de gen/spec do veterin·rio, o mesmo veterin·rio pode atender casos de dermatologia e tambem fazer consultas de patologia ou algumas cirurgias (como castraÁ„o por exemplo), ent„o nesse caso seria uma gen/spec din‚mica.
+A gen/spec Veterin√°rio apresenta classifica√ß√£o dinamica, pois o Veterin√°rio pode ter especializa√ß√£o em varias areas ao mesmo tempo.
+A gen/spec Animal n√£o apresenta classifica√ß√£o dinamica, porque um Animal nao pode ser de ra√ßa e ao mesmo tempo ser sem ra√ßa.
