@@ -1,0 +1,10 @@
+1 - TratamentoNaConsulta
+2 - TratamentoComRetorno
+3 - Diagnostico
+4 - PrimeiraConsulta
+5 - Consulta
+6 - Retorno
+7 - ResultadoTratamento
+
+A arvore binaria facilita na localização das consultas por sua categoria, rapidamente identificando quais
+consultas foram resolvidas no primeiro diagnóstico, ou encaminhadas para um retorno com exames adicionais.
