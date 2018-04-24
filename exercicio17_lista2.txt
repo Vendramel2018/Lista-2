@@ -1,0 +1,34 @@
+#include Mamiferos.h
+
+#include Aves.h
+
+class Ornitorrinco : public Mamiferos, public Aves{
+       
+	//codigo da classe
+};
+void amamentar( ){
+	//codigo da função
+}
+void botarOvos( ){
+	//codigo da função
+}
+
+---------------------------------------------------------------------------------------------
+
+#include Animal.h
+class Aves : public Animal{
+	//codigo da classe
+}
+void botarOvos( ){
+	//codigo da função
+}
+
+----------------------------------------------------------------------------------------------------
+
+#include Animal.h
+class Mamiferos : public Animal{
+	//codigo da classe
+}
+void amamentar( ){
+	//codigo da função
+}
