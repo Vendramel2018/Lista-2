@@ -1,0 +1,53 @@
+//Interfaces:
+
+public interface Fecundavel {
+	
+	public abstract void fecundar();
+}
+
+
+public interface Chocavel {
+	
+	public abstract void botarOvos();
+	public abstract void chocarOvos();
+}
+
+
+public interface Amamentavel {
+	
+	public abstract void amamentar();
+}
+
+//Classes:
+
+public class Animal implements Fecundavel{
+	
+	public void fecundar() {
+		
+	}
+}
+
+
+public class Ave implements Chocavel{
+	
+	public void botarOvos() {
+		
+	}
+	public void chocarOvos() {
+		
+	}
+}
+
+
+public class Mamifero implements Amamentavel{
+	
+	public void amamentar() {
+		
+	}
+}
+
+
+public class Onitorrinco {
+	//getters and setters
+}
+
