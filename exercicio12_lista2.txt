@@ -1,0 +1,5 @@
+Pois retirando o gen/spec e usando delegação/composição podemos evitar os seguintes aspectos:
+– classe filha representa papéis de uma superclasse.
+– Quando a subclasse herda propriedades que não se aplicam a ela.
+
+Nesse caso o mais visivel é o caso de as filhas terem papeis da superclasse, como no caso dos veterinários
