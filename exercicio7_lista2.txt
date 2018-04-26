@@ -1,0 +1,13 @@
+//List:
+public class Historico {
+
+	public List<Veterinario> veterinario;
+	public List<Animal> animal;
+	public List<Cliente> cliente;
+}
+
+//Set:
+public class Consulta {
+
+	public Set<Exame> exame;
+}

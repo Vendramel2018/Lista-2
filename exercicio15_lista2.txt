@@ -1,0 +1,70 @@
+public class Veterinario {
+	
+	private String nome;
+	private String email;
+	private int telefone;
+	private int crmv;
+	private Date dataContrato;
+	private Time horaEntra;
+	private Time horaSai;
+}
+
+public class Especie {
+
+}
+
+public enum Raca {
+
+}
+
+
+public class Cirurgiao {
+
+	private Veterinario vet;
+	public float calculaValorConsulta() {
+		float valor = 0;
+		//code
+		return valor;
+	}
+}
+
+public class Patologista {
+
+	private Veterinario vet;
+	public float calculaValorConsulta() {
+		float valor = 0;
+		//code
+		return valor;
+	}
+}
+
+public class Dermatologista {
+
+	private Veterinario vet;
+	public float calculaValorConsulta() {
+		float valor = 0;
+		//code
+		return valor;
+	}
+}
+
+public class Animal {
+
+	private Especie especie;
+	private String nomeAnimal;
+	private Date nascimento;
+	private char sexo;
+	private String dono;
+}
+
+public class AnimalViraLata {
+
+	private Animal animal;
+	private String possivelRaca;
+}
+
+public class AnimalDeRaca {
+
+	private Animal animal;
+	private Raca raca;
+}
