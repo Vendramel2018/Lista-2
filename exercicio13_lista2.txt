@@ -1,0 +1,80 @@
+//Composição de Veterinário:
+
+public class Veterinario {
+	private String nome;
+	private String email;
+	private int telefone;
+	private int crmv;
+	private Date dataContrato;
+	private Time horaEntra;
+	private Time horaSai;
+	
+}
+
+public class Patologista {
+	
+	public float calculaValorConsulta() {
+		float valor = 0;
+		//code
+		return valor;
+	}
+	
+	public Patologista() {
+		Veterinario vet = new Veterinario();
+	}
+}
+
+public class Cirurgiao {
+
+	public float calculaValorConsulta() {
+		float valor = 0;
+		//code
+		return valor;
+	}
+	
+	public Cirurgiao() {
+		Veterinario vet = new Veterinario();
+	}
+}
+
+public class Dermatologista {
+
+	public float calculaValorConsulta() {
+		float valor = 0;
+		//code
+		return valor;
+	}
+	
+	public Dermatologista() {
+		Veterinario vet = new Veterinario();
+	}
+}
+
+//Composição de Animal:
+
+public class Animal {
+
+	private Especie especie;
+	private String nomeAnimal;
+	private Date nascimento;
+	private char sexo;
+	private String dono;
+}
+
+public class AnimalDeRaca {
+
+	private Raca raca;
+	
+	public AnimalDeRaca() {
+		Animal animal = new Animal();
+	}
+}
+
+public class AnimalViraLata {
+
+	private String possivelRaca;
+	
+	public AnimalViraLata() {
+		Animal animal = new Animal();
+	}
+}
