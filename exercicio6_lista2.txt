@@ -1,0 +1,1 @@
+Foi utilizado um List de Veterinários, Clientes e Animais no Histórico pois os mesmos podem se repetir diversas vezes nos registros. E foi usado um Set de Exames para a Consulta pois não um exame não deve se repetir em um diagnóstico.

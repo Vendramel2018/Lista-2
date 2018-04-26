@@ -1,0 +1,113 @@
+//Exercício 11:
+public interface Diagnosticaveis {
+
+	public void diagnosticar();
+}
+
+public interface Examinavel {
+
+	public void realizarExame();
+}
+
+public class Veterinario implements Diagnosticaveis, Examinavel{
+
+	private String nome;
+	private String email;
+	private int telefone;
+	private int crmv;
+	private Date dataContrato;
+	private Time horaEntra;
+	private Time horaSai;
+	
+	//Getters and Setters
+	
+	public void diagnosticar() {
+		
+	}
+	
+	public void realizarExame() {
+		
+	}
+}
+
+public class Animal {
+
+	private Especie especie;
+	private String nomeAnimal;
+	private Date nascimento;
+	private char sexo;
+	private String dono;
+}
+
+public interface Agendavel {
+
+	public void agendar();
+}
+
+public class Consulta implements Agendavel{
+
+	private ConsultaDiarias consultasDiarias;
+	private Date data;
+	private Time hora;
+	private Cliente cliente;
+	private Animal animal;
+	private Veterinario veterinario;
+	private Pagamento pagamento;
+	
+	//Getters and Setters
+	public void agendar() {
+		
+	}
+}
+
+public class Exame implements Agendavel{
+
+	private Date dataPedido;
+	private String tipoExame;
+	private Cliente cliente;
+	private Animal animal;
+	private Veterinario veterinario;
+	
+	//Getters and Setters
+	public void agendar() {
+		
+	}
+}
+
+public class ControlConsulta {
+
+	public void cadastraConsulta() {
+		
+	}
+	public void alteraConsulta() {
+			
+		}
+	public void buscaConsulta() {
+		
+	}
+	public void excluiConsulta() {
+		
+	}
+	public void calculaQtdConsulta() {
+		
+	}
+	public void atualizaHistorico(Historico historico, Consulta consulta) {
+		
+	}
+}
+
+public class ControlExame {
+
+	public void cadastraSolicitacaoExame() {
+		
+	}
+	public void alteraSolicitacaoExame() {
+		
+	}
+	public void buscaSolicitacaoExame() {
+		
+	}
+	public void exlcuiSolicitacaoExame() {
+		
+	}
+}
