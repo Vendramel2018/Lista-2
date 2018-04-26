@@ -1,0 +1,25 @@
+Interface Consulta:
+public interface Consulta {
+	private date data;
+	private time hora;
+	Cliente cliente = new Cliente( );
+	Veterinario veterinario = new Veterinario( );
+	Pagamento pagamento = new Pagamento( );
+	Animal animal = new Animal( );
+
+	public void obterDiagnosticoHistorico(String diagnostico);
+}
+
+Classe ConsultaFinal:
+public class ConsultaFinal implements Consulta {
+	private String resultado;
+	public void finalizarHistorico( ){ ... }
+	public void obterDiagnosticoHistorico( ){ ... }
+}
+
+Classe Retorno:
+public class Retorno implements Consulta {
+	private String diagnosticoAnterior;
+	public void solicitaExame( ){ … }
+	public void remarcarConsulta(Consulta consulta){ … }
+}

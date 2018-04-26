@@ -1,0 +1,9 @@
+CLASSE ORNITORRINCO
+Public class Ornitorrinco{
+	Ave ave = new Ave();
+	Mamifero mamifero = new Mamifero();
+	public void botarOvos( ){...}
+	public void amamentar( ){...}
+	public ... get...(){...}
+	public ... set...(...){...}
+}
