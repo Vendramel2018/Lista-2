@@ -1,0 +1,84 @@
+//Parameter
+public class ControlAnimal {
+	public void cadastraAnimal(Animal animal) {
+		
+	}
+	public void alteraAnimal(Animal animal) {
+			
+		}
+	public void buscaAnimal(Animal animal) {
+		
+	}
+	public void excluiAnimal(Animal animal) {
+		
+	}
+}
+
+public class ControlCliente {
+	public void cadastraCliente(Cliente cliente) {
+		
+	}
+	public void alteraCliente(Cliente cliente) {
+			
+		}
+	public void buscaCliente(Cliente cliente) {
+		
+	}
+	public void excluiCliente(Cliente cliente) {
+		
+	}
+}
+
+public class ControlVeterinario {
+	public void cadastraVeterinario(Veterinario veterinario) {
+		
+	}
+	public void alteraVeterinario(Veterinario veterinario) {
+			
+		}
+	public void buscaVeterinario(Veterinario veterinario) {
+		
+	}
+	public void excluiVeterinario(Veterinario veterinario) {
+		
+	}
+}
+
+public class ControlExame {
+	public void cadastraExame(Exame exame) {
+		
+	}
+	public void alteraExame(Exame exame) {
+			
+		}
+	public void buscaExame(Exame exame) {
+		
+	}
+	public void excluiExame(Exame exame) {
+		
+	}
+}
+
+public class ControlConsulta {
+	public void cadastraConsulta(Consulta consulta) {
+		
+	}
+	public void alteraConsulta(Consulta consulta) {
+			
+		}
+	public void buscaConsulta(Consulta consulta) {
+		
+	}
+	public void excluiConsulta(Consulta consulta) {
+		
+	}
+	//Local:
+	public void atualizaHistorico() {
+		Historico historico = new Historico();
+		//code
+	}
+	public void gerarHistorico() {
+		Historico historico = new Historico();
+		//code
+	}
+}
